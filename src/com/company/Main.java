@@ -13,7 +13,7 @@ public class Main {
     }
     public static void Samples(ArrayList s, ArrayList c){
         Student<Integer> st1 = new Student<Integer>(88889,"Torres Hoang", "20/2/1996");   //Generics Feature
-        Student<String> st2 = new Student<String>("s123456","Hoang Long", "10/9/1997");
+        Student<String> st2 = new Student<String>("s12345","Hoang Long", "10/9/1997");
         Student<Integer> st3 = new Student<Integer>(54321,"Alex Nguyen", "6/5/1992");
         s.add(st1);
         s.add(st2);
