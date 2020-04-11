@@ -12,7 +12,7 @@ public class Main {
         }
     }
     public static void Samples(ArrayList s, ArrayList c){
-        Student<Integer> st1 = new Student<Integer>(88889,"Torres Hoang", "20/2/1996");   //Generics Feature
+        Student<Integer> st1 = new Student<Integer>(88889,"Torres Hoangg", "20/2/1996");   //Generics Feature
         Student<String> st2 = new Student<String>("s123456","Hoang Long", "10/9/1997");
         Student<Integer> st3 = new Student<Integer>(54321,"Alex Nguyen", "6/5/1992");
         s.add(st1);
@@ -20,7 +20,7 @@ public class Main {
         s.add(st3);
         Course c1 = new Course(Courses.COSC2222,"Intro to Programming",12);           //Enum Feature
         Course c2 = new Course(Courses.COSC1110,"Web Programming",12);
-        Course c3 = new Course(Courses.COSC1116,"Building IT Systems", 12);
+        Course c3 = new Course(Courses.COSC1111,"Building IT Systems", 12);
         c.add(c1);
         c.add(c2);
         c.add(c3);
