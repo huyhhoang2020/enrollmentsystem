@@ -12,13 +12,13 @@ public class Main {
         }
     }
     public static void Samples(ArrayList s, ArrayList c){
-        Student<Integer> st1 = new Student<Integer>(88889,"King Torres", "20/2/1996");   //Generics Feature
+        Student<Integer> st1 = new Student<Integer>(88889,"King Torres", "20/2/1996");
         Student<String> st2 = new Student<String>("s12345","Hoang Long", "10/9/1997");
         Student<Integer> st3 = new Student<Integer>(54321,"Linh Cung", "6/5/1992");
         s.add(st1);
         s.add(st2);
         s.add(st3);
-        Course c1 = new Course(Courses.COSC2222,"Intro to Programming",12);           //Enum Feature
+        Course c1 = new Course(Courses.COSC2222,"Intro to Programming",12);
         Course c2 = new Course(Courses.COSC1110,"Web Programming",12);
         Course c3 = new Course(Courses.COSC1111,"Building IT Systems", 12);
         c.add(c1);
