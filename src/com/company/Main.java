@@ -20,7 +20,7 @@ public class Main {
         s.add(st3);
         Course c1 = new Course(Courses.COSC2222,"Intro to Programming",12);           //Enum Feature
         Course c2 = new Course(Courses.COSC1110,"Web Programming",12);
-        Course c3 = new Course(Courses.COSC1112,"Building IT Systems", 12);
+        Course c3 = new Course(Courses.COSC111,"Building IT Systems", 12);
         c.add(c1);
         c.add(c2);
         c.add(c3);
